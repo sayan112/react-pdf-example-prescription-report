@@ -12,6 +12,7 @@ const App = () => {
 
   return (
     <div>
+    
       {!renderPdf && (
         <FirstNameForm
           firstName={firstName}
@@ -21,7 +22,7 @@ const App = () => {
                       setRenderPdf(true);
 
 
-                      
+
           }}
         />
       )}
