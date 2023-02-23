@@ -17,7 +17,8 @@ const App = () => {
           firstName={firstName}
           setFirstName={setFirstName}
           handleSubmit={() => {
-            setRenderPdf(true);
+          
+                      setRenderPdf(true);
           }}
         />
       )}
